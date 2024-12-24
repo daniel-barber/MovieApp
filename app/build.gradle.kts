@@ -58,7 +58,12 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 
     // Navigation
-    implementation("androidx.navigation:navigation-compose:2.8.5")
+    implementation(libs.androidx.navigation.compose)
+
+    // Load Images
+    implementation(libs.coil.kt.coil.compose)
+
+
 
 
 }
